@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "stm32f10x.h": "c",
+            "motor.h": "c",
+            "i2c.h": "c",
+            "oled.h": "c"
+        }
+    },
+    "extensions": {}
+}

@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=EXJT4-F3I05-CXAU6-DK0LE-FB8K4-89ESL
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\Keil\STM32Core\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\BaiduNetdiskDownload\高速下载-1753543005686PID入门教程资料\程序源码\程序源码\程序源码-有注释版\02-位置式PID定速控制\Project.uvprojx
+Project File Date:  12/27/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Keil\STM32Core\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+User\main.c(82): error:  #65: expected a ";"
+  {
+User\main.c(104): warning:  #12-D: parsing restarts here after previous syntax error
+  			Actual = Encoder_Get();
+User\main.c(107): warning:  #111-D: statement is unreachable
+  			Error1 = Error0;			//鑾峰彇涓婃璇樊
+User\main.c(137): error:  #79: expected a type specifier
+  		TIM_ClearITPendingBit(
+IM1, TIM_IT_Update);
+User\main.c(137): error:  #79: expected a type specifier
+  		TIM_ClearITPendingBit(
+IM1, 
+IM_IT_Update);
+User\main.c(137): error:  #260-D: explicit type is missing ("int" assumed)
+  		TIM_ClearITPendingBit(
+IM1, 
+IM_IT_Update);
+User\main.c(137): error:  #147: declaration is incompatible with "void TIM_ClearITPendingBit(TIM_TypeDef *, uint16_t)"  (declared at line 1145 of ".\Library\stm32f10x_tim.h")
+  		TIM_ClearITPendingBit(
+IM1, 
+IM_IT_Update);
+User\main.c(138): error:  #169: expected a declaration
+  	}
+User\main.c: 2 warnings, 6 errors
+".\Objects\Project.axf" - 6 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\Keil\STM32Core\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
